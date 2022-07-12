@@ -1,0 +1,20 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --files --transpile-only",
+  },
+  "liveServer.settings.port": 5501,
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true,
+    "public": true,
+    ".git": true,
+    ".gitignore": true,
+    "package.json": true,
+    "package-lock.json": true,
+    ".eslintrc.js": true,
+    ".editorconfig": true,
+    ".prettierrc.js": true,
+    "tsconfig.json": true,
+    "README.md": true,
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react';
-import styles from './styles.module.scss';
+import PomodoroTimer from '../../components/PomodoroTimer';
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <section>
+      <PomodoroTimer defaultPomodoroTime={1500} />
+    </section>
+  );
 };
 
 export default Homepage;

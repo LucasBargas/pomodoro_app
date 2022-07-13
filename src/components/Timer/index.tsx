@@ -6,7 +6,7 @@ interface Props {
   mainTime: number;
 }
 
-const Timer = (props: Props) => {
+const Timer = (props: Props): JSX.Element => {
   return <div className={styles.timer}>{secondsToTime(props.mainTime)}</div>;
 };
 

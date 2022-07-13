@@ -1,7 +1,7 @@
 import React from 'react';
 import PomodoroTimer from '../../components/PomodoroTimer';
 
-const Homepage = () => {
+const Homepage = (): JSX.Element => {
   return (
     <section>
       <PomodoroTimer

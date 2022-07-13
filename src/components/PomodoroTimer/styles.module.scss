@@ -1,3 +1,34 @@
 .pomodoroContainer {
+  background: #ffffff;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .buttonsRow {
+    padding-top: .25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: .5rem;
+
+    .button {
+      background: #41e1ba;
+      padding: .625rem 1.5rem;
+      color: #000000;
+      transition: background-color .3s ease-in-out;
+      font-size: .875rem;
+    }
+  }
+
+  .pomodoroDetails {
+    padding-top: 1.625rem;
+  }
 }

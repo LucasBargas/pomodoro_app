@@ -6,7 +6,7 @@
   "files.exclude": {
     "node_modules": true,
     ".vscode": true,
-    "public": true,
+    "public": false,
     ".git": true,
     ".gitignore": true,
     "package.json": true,

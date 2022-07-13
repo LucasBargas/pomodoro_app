@@ -6,4 +6,34 @@
 
 body {
   font-family: sans-serif;
+  background: #41e1ba;
+  transition: .3s ease-in-out;
+  line-height: 1.5;
+
+  &.working {
+    background: #ef5d50;
+    transition: .3s ease-in-out;
+
+    button {
+      background: #ef5d50 !important;
+      color: #fff !important;
+      transition: .3s ease-in-out;
+    }
+  }
+
+  button {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .3s ease-in-out;
+  }
+}
+
+.pomodoro {
+  padding: 3.5rem 1rem;
+}
+
+.hidden {
+  display: none;
 }

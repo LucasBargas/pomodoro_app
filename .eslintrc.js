@@ -10,6 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
   ],
   globals: {
     Atomics: 'readonly',
@@ -21,8 +22,5 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  rules: {
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
-  },
+  rules: {},
 };
